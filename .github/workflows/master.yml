@@ -1,0 +1,36 @@
+name: Master branch CI/CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+#
+#      - name: ssh script
+#        uses: appleboy/ssh-action@master
+#        env:
+#          MAS_USER: ${{secrets.MASTER_USER}}
+#          MAS_PASS: ${{secrets.MASTER_PASS}}
+#          UPLOAD_FILE_DIR: ${{secrets.UPLOAD_FILE_DIR}}
+#          LOGIN_ENDPOINT: ${{secrets.LOGIN_ENDPOINT}}
+#          API_ENDPOINT: ${{secrets.API_ENDPOINT}}
+#          SSH_ROOT: ${{secrets.SSH_ROOT}}
+#        with:
+#          host: ${{ secrets.MASTER_BRANCH_HOST }}
+#          username: ${{secrets.SSH_USER}}
+#          key: ${{secrets.SSH_PRIVATE_KEY}}
+#          envs: MAS_USER,MAS_PASS,UPLOAD_FILE_DIR,LOGIN_ENDPOINT,API_ENDPOINT,SSH_ROOT
+#          script: |
+#            cd ~/efine/efine_source/my-website
+#            git pull origin master
+#            git checkout master
+#            export DIF_FILE="git diff --name-only HEAD^ HEAD"
+#            ./post_commit.sh
+#
