@@ -68,3 +68,5 @@ export const Highlight = ({children, color}) => (
 ![img alt](/img/image-27.png)
 
  <Highlight color="#1877F2"><b> Барьцаа хөрөнгийн мэдээлэл оруулах </b></Highlight>
+ 
+ ![img alt](/img/image-28.png)
