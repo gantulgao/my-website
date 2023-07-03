@@ -63,8 +63,8 @@ sidebar_position: 7
   <details>
     <summary>Барьцаа хөрөнгийн мэдээлэл оруулах</summary>
  
-![img alt](/img/img-28.png)
- 
+![img alt](/img/image-28.png)
+
  ![img alt](/img/image-29.png)
  
  
