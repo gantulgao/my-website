@@ -1,5 +1,5 @@
 ---
-title: Танилцуулга
+title: ТАНИЛЦУУЛГА
 sidebar_position: 1
 ---
 
