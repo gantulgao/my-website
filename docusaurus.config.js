@@ -11,15 +11,15 @@ const config = {
   },
   themes: ["@docusaurus/theme-mermaid"],
 
-  title: "My Site Efinane guide",
-  tagline: "Dinosaurs are cool",
+  title: "EFinane guide",
+  tagline: "",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/docs",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -72,7 +72,7 @@ const config = {
         title: "EFinance Guide",
         logo: {
           alt: "EFinance Logo",
-          src: "img/logo.svg",
+          src: "img/docusaurus.png",
         },
         items: [
           {
@@ -80,12 +80,6 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
           },
         ],
       },
@@ -97,7 +91,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/Account-EFinance.1",
+                to: "/docs/Tanilcuulga",
               },
             ],
           },
