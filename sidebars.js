@@ -31,7 +31,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Гүйлгээ",
+      label: "ГҮЙЛГЭЭ",
       items: ["guilgee", "guilgee2"],
     },
     {
