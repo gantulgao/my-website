@@ -21,12 +21,12 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: "category",
-      label: "Агуулга",
+      label: "АГУУЛГА",
       items: ["Tanilcuulga", "nevtreh"],
     },
     {
       type: "category",
-      label: "Харилцагч бүртгэх данс нээх",
+      label: "ХАРИЛЦАГЧ БҮРТГЭХ/ ДАНС НЭЭХ",
       items: ["burtgel", "dans"],
     },
     {
@@ -39,34 +39,40 @@ const sidebars = {
       label: "Нябо тайлан",
       items: ["nTailan1"],
     },
-     {
+
+    {
       type: "category",
-      label: "Зээлийн бүртгэл",
-      items: ["burt_zeeldegch", "zeeliinHuselt",
-      {
-      type: "category",
-      label: "Зээлийн хүсэлт",
-      items: ["zeelSudlah", "shiidwer"],
-      "zeelGeree",
+      label: "ЗЭЭЛИЙН БҮРТГЭЛ",
+      items: [
+        "burt_zeeldegch",
+
+        {
+          type: "category",
+          label: "ЗЭЭЛИЙН ХҮСЭЛТ",
+          items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
+        },
+        ,
+        {
+          type: "category",
+          label: "ЗЭЭЛИЙН ТАЙЛАН",
+          items: ["zeeliinTailan", "Zotailan"],
+        },
+      ],
     },
-       {
-      type: "category",
-      label: "Зээл тайлан",
-      items: ["zeeliinTailan", "Zotailan"],
-    },
-       
-       ],
-    },
+
+    // Guilgee
     {
       type: "category",
       label: "Гүйлгээ өндөрлөх, тайлан баланс гаргах",
       items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
     },
-     {
+    {
       type: "category",
       label: "Нябо тохиргоо",
       items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
     },
+
+    ,
   ],
 };
 

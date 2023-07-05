@@ -1,5 +1,6 @@
 ---
-title: ТАНИЛЦУУЛГА
+title: Танилцуулга
+hide_table_of_contents: true
 ---
 
 #	ТАНИЛЦУУЛГА
