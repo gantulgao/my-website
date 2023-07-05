@@ -24,20 +24,48 @@ const sidebars = {
       label: "АГУУЛГА",
       items: ["Tanilcuulga", "nevtreh"],
     },
+    "burtgel",
+
     {
       type: "category",
-      label: "ХАРИЛЦАГЧ БҮРТГЭХ/ ДАНС НЭЭХ",
-      items: ["burtgel", "dans"],
+      label: "НЯБО БҮРТГЭЛ",
+      items: [
+        "hariltsagch",
+        "nTailan1",
+        "dans",
+
+        {
+          type: "category",
+          label: "Гүйлгээ",
+          items: ["guilgee", "guilgee2"],
+        },
+        ,
+        {
+          type: "category",
+          label: "Гүйлгээний төлөв",
+          items: ["guilgTuluv4", "guilgTuluv3", "blansShalgah", "gulgTuluv5"],
+        },
+
+        ,
+        {
+          type: "category",
+          label: "Нябо тайлан",
+          items: [
+            "nTailan7",
+            "nTailan2",
+            "nTailan4",
+            "nTailan5",
+            "nTailan6",
+            "nTailan8",
+          ],
+        },
+      ],
     },
+
     {
       type: "category",
-      label: "ГҮЙЛГЭЭ",
-      items: ["guilgee", "guilgee2"],
-    },
-    {
-      type: "category",
-      label: "Нябо тайлан",
-      items: ["nTailan1"],
+      label: "НЯБО ТОХИРГОО",
+      items: ["nTohirgoo1"],
     },
 
     {
@@ -48,31 +76,21 @@ const sidebars = {
 
         {
           type: "category",
-          label: "ЗЭЭЛИЙН ХҮСЭЛТ",
+          label: "Зээлийн хүсэлт",
           items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
         },
         ,
         {
           type: "category",
-          label: "ЗЭЭЛИЙН ТАЙЛАН",
-          items: ["zeeliinTailan", "Zotailan"],
+          label: "Зээлийн тайлан",
+          items: ["zeeliinTailan", "Zotailan", "doTailan"],
         },
       ],
     },
 
     // Guilgee
-    {
-      type: "category",
-      label: "Гүйлгээ өндөрлөх, тайлан баланс гаргах",
-      items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
-    },
-    {
-      type: "category",
-      label: "Нябо тохиргоо",
-      items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
-    },
-
-    ,
+    "nemelt",
+    "zeel_moduli",
   ],
 };
 
