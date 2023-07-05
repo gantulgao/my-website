@@ -39,9 +39,32 @@ const sidebars = {
       label: "Нябо тайлан",
       items: ["nTailan1"],
     },
+     {
+      type: "category",
+      label: "Зээлийн бүртгэл",
+      items: ["burt_zeeldegch", "zeeliinHuselt",
+      {
+      type: "category",
+      label: "Зээлийн хүсэлт",
+      items: ["zeelSudlah", "shiidwer"],
+      "zeelGeree",
+    },
+       {
+      type: "category",
+      label: "Зээл тайлан",
+      items: ["zeeliinTailan", "Zotailan"],
+    },
+       
+       ],
+    },
     {
       type: "category",
       label: "Гүйлгээ өндөрлөх, тайлан баланс гаргах",
+      items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
+    },
+     {
+      type: "category",
+      label: "Нябо тохиргоо",
       items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
     },
   ],
