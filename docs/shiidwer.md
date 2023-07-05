@@ -1,6 +1,5 @@
 ---
 title: ЗЭЭЛ ШИЙДВЭРЛЭХ
-sidebar_position: 6
 ---
 
 >

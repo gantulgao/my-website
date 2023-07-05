@@ -18,16 +18,31 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  mySidebar: [
+  tutorialSidebar: [
     {
       type: "category",
-      label: "Category 1",
-      items: ["nTailan1", "nTailan2"],
+      label: "Агуулга",
+      items: ["Tanilcuulga", "nevtreh"],
     },
     {
       type: "category",
-      label: "Category 2",
-      items: ["nTailan3", "nTailan4"],
+      label: "Харилцагч бүртгэх данс нээх",
+      items: ["burtgel", "dans"],
+    },
+    {
+      type: "category",
+      label: "Гүйлгээ",
+      items: ["guilgee", "guilgee2"],
+    },
+    {
+      type: "category",
+      label: "Нябо тайлан",
+      items: ["nTailan1"],
+    },
+    {
+      type: "category",
+      label: "Гүйлгээ өндөрлөх, тайлан баланс гаргах",
+      items: ["guilgTuluv4", "guilgTuluv3", "nTailan3"],
     },
   ],
 };

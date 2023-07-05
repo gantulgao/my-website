@@ -1,6 +1,5 @@
 ---
 title: ЗЭЭЛИЙН ТАЙЛАН
-sidebar_position: 7
 ---
 
 

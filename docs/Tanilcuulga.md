@@ -1,7 +1,5 @@
 ---
-id: taniltsuulga
 title: ТАНИЛЦУУЛГА
-sidebar_position: 1
 ---
 
 #	ТАНИЛЦУУЛГА
