@@ -76,7 +76,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/about",
+                to: "/docs/nevtreh",
               },
             ],
           },
