@@ -29,7 +29,7 @@ const sidebars = {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
       items: [
-        "Zeel_moduli",
+        "zeel_moduli",
         "burt_zeeldegch",
 
         {
