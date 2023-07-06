@@ -19,6 +19,7 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
+    
     {
       type: "category",
       label: "АГУУЛГА",
@@ -41,8 +42,13 @@ const sidebars = {
           type: "category",
           label: "Зээлийн тайлан",
           items: ["zeeliinTailan", "Zotailan", "doTailan"],
+        }, ,
+    
+          ],
         },
-        // ny bo burtgel
+
+    
+    // ny bo burtgel
         {
           type: "category",
           label: "НЯБО БҮРТГЭЛ",
@@ -51,7 +57,7 @@ const sidebars = {
               type: "category",
               label: "Харилцагч бүртгэх, данс нээх",
               items: ["burtgel", "hariltsagch", "dans"],
-            },
+            },,
 
             "nTailan1",
 
@@ -70,9 +76,8 @@ const sidebars = {
                 "blansShalgah",
                 "gulgTuluv5",
               ],
-            },
-
-            ,
+            },, 
+            
             {
               type: "category",
               label: "Нябо тайлан",
@@ -85,20 +90,15 @@ const sidebars = {
                 "nTailan8",
               ],
             },
-          ],
-        },
-
-        {
+              {
           type: "category",
           label: "НЯБО ТОХИРГОО",
           items: ["nTohirgoo1"],
-        },
-      ],
-    },
-
-    // Guilgee
+        },,
+            
     "nemelt",
     "zeel_moduli",
+    
   ],
 };
 
