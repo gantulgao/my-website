@@ -29,7 +29,7 @@ const sidebars = {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
       items: [
-        "Tanilcuulga",
+        "Zeel_moduli",
         "burt_zeeldegch",
 
         {
@@ -98,7 +98,6 @@ const sidebars = {
     },
 
     "nemelt",
-    "zeel_moduli",
   ],
 };
 
