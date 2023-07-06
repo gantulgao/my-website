@@ -59,7 +59,6 @@ const sidebars = {
           label: "Харилцагч бүртгэх, данс нээх",
           items: ["burtgel", "hariltsagch", "dans"],
         },
-
         ,
         "nTailan1",
 
@@ -74,7 +73,6 @@ const sidebars = {
           label: "Гүйлгээний төлөв",
           items: ["guilgTuluv4", "guilgTuluv3", "blansShalgah", "gulgTuluv5"],
         },
-
         ,
         {
           type: "category",
