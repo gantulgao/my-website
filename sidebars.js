@@ -24,49 +24,6 @@ const sidebars = {
       label: "АГУУЛГА",
       items: ["Tanilcuulga", "nevtreh"],
     },
-    "burtgel",
-
-    {
-      type: "category",
-      label: "НЯБО БҮРТГЭЛ",
-      items: [
-        "hariltsagch",
-        "nTailan1",
-        "dans",
-
-        {
-          type: "category",
-          label: "Гүйлгээ",
-          items: ["guilgee", "guilgee2"],
-        },
-        ,
-        {
-          type: "category",
-          label: "Гүйлгээний төлөв",
-          items: ["guilgTuluv4", "guilgTuluv3", "blansShalgah", "gulgTuluv5"],
-        },
-
-        ,
-        {
-          type: "category",
-          label: "Нябо тайлан",
-          items: [
-            "nTailan7",
-            "nTailan2",
-            "nTailan4",
-            "nTailan5",
-            "nTailan6",
-            "nTailan8",
-          ],
-        },
-      ],
-    },
-
-    {
-      type: "category",
-      label: "НЯБО ТОХИРГОО",
-      items: ["nTohirgoo1"],
-    },
 
     {
       type: "category",
@@ -84,6 +41,57 @@ const sidebars = {
           type: "category",
           label: "Зээлийн тайлан",
           items: ["zeeliinTailan", "Zotailan", "doTailan"],
+        },
+        // ny bo burtgel
+        {
+          type: "category",
+          label: "НЯБО БҮРТГЭЛ",
+          items: [
+            {
+              type: "category",
+              label: "Харилцагч бүртгэх, данс нээх",
+              items: ["burtgel", "hariltsagch", "dans"],
+            },
+
+            "nTailan1",
+
+            {
+              type: "category",
+              label: "Гүйлгээ",
+              items: ["guilgee", "guilgee2"],
+            },
+            ,
+            {
+              type: "category",
+              label: "Гүйлгээний төлөв",
+              items: [
+                "guilgTuluv4",
+                "guilgTuluv3",
+                "blansShalgah",
+                "gulgTuluv5",
+              ],
+            },
+
+            ,
+            {
+              type: "category",
+              label: "Нябо тайлан",
+              items: [
+                "nTailan7",
+                "nTailan2",
+                "nTailan4",
+                "nTailan5",
+                "nTailan6",
+                "nTailan8",
+              ],
+            },
+          ],
+        },
+
+        {
+          type: "category",
+          label: "НЯБО ТОХИРГОО",
+          items: ["nTohirgoo1"],
         },
       ],
     },
