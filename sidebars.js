@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "category",
       label: "АГУУЛГА",
-      items: ["about", "nevtreh"],
+      items: ["nevtreh"],
     },
 
     {
