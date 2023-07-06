@@ -6,7 +6,7 @@ pwd
 
 npm -version
 
-npm run build || exit 1
+npm run serve -- --build --port 80 --host 0.0.0.0 || exit 1
 
 cd build 
 
