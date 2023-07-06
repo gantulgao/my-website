@@ -22,13 +22,14 @@ const sidebars = {
     {
       type: "category",
       label: "АГУУЛГА",
-      items: ["Tanilcuulga", "nevtreh"],
+      items: ["nTaniltsuulga", "nevtreh"],
     },
 
     {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
       items: [
+        "Tanilcuulga",
         "burt_zeeldegch",
 
         {
