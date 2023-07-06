@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "category",
       label: "АГУУЛГА",
-      items: ["nTaniltsuulga", "nevtreh"],
+      items: ["about", "nevtreh"],
     },
 
     {
@@ -53,6 +53,7 @@ const sidebars = {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
       items: [
+        "nTaniltsuulga",
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
