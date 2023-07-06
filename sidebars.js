@@ -19,7 +19,6 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    
     {
       type: "category",
       label: "АГУУЛГА",
@@ -42,63 +41,62 @@ const sidebars = {
           type: "category",
           label: "Зээлийн тайлан",
           items: ["zeeliinTailan", "Zotailan", "doTailan"],
-        }, ,
-    
-          ],
         },
 
-    
+        ,
+      ],
+    },
+
     // ny bo burtgel
+    {
+      type: "category",
+      label: "НЯБО БҮРТГЭЛ",
+      items: [
         {
           type: "category",
-          label: "НЯБО БҮРТГЭЛ",
-          items: [
-            {
-              type: "category",
-              label: "Харилцагч бүртгэх, данс нээх",
-              items: ["burtgel", "hariltsagch", "dans"],
-            },,
+          label: "Харилцагч бүртгэх, данс нээх",
+          items: ["burtgel", "hariltsagch", "dans"],
+        },
 
-            "nTailan1",
+        ,
+        "nTailan1",
 
-            {
-              type: "category",
-              label: "Гүйлгээ",
-              items: ["guilgee", "guilgee2"],
-            },
-            ,
-            {
-              type: "category",
-              label: "Гүйлгээний төлөв",
-              items: [
-                "guilgTuluv4",
-                "guilgTuluv3",
-                "blansShalgah",
-                "gulgTuluv5",
-              ],
-            },, 
-            
-            {
-              type: "category",
-              label: "Нябо тайлан",
-              items: [
-                "nTailan7",
-                "nTailan2",
-                "nTailan4",
-                "nTailan5",
-                "nTailan6",
-                "nTailan8",
-              ],
-            },
-              {
+        {
           type: "category",
-          label: "НЯБО ТОХИРГОО",
-          items: ["nTohirgoo1"],
-        },,
-            
+          label: "Гүйлгээ",
+          items: ["guilgee", "guilgee2"],
+        },
+        ,
+        {
+          type: "category",
+          label: "Гүйлгээний төлөв",
+          items: ["guilgTuluv4", "guilgTuluv3", "blansShalgah", "gulgTuluv5"],
+        },
+
+        ,
+        {
+          type: "category",
+          label: "Нябо тайлан",
+          items: [
+            "nTailan7",
+            "nTailan2",
+            "nTailan4",
+            "nTailan5",
+            "nTailan6",
+            "nTailan8",
+          ],
+        },
+      ],
+    },
+    // nybo tohirgoo
+    {
+      type: "category",
+      label: "НЯБО ТОХИРГОО",
+      items: ["nTohirgoo1"],
+    },
+
     "nemelt",
     "zeel_moduli",
-    
   ],
 };
 
