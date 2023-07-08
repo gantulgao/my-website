@@ -50,12 +50,10 @@ const sidebars = {
                 "zgAjil3",
                 "zgAjil4",
                 "zgAjil5",
-                "zgAjil6",
+                "zgAjil6"
               ],
-            },
-          ],
-        },
-        ,
+            },,
+       
         {
           type: "category",
           label: "Зээлийн тайлан",
