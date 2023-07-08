@@ -4,7 +4,7 @@
  - render a sidebar for each doc of that group
  - provide next/previous navigation
 
- The sidebars can be generated from the filesystem, or explicitly defined here.
+ The sidebars can be generated from the filesystem or explicitly defined here.
 
  Create as many sidebars as you want.
  */
@@ -35,25 +35,22 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн хүсэлт",
+          items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
+        },
+
+        {
+          type: "category",
+          label: "Зээлийн гэрээтэй ажиллах",
           items: [
-            "zeeliinHuselt",
-            "zeelSudlah",
-            "shiidwer",
-            "zeelGeree",
-            {
-              type: "category",
-              label: "Зээлийн гэрээтэй ажиллах",
-              items: [
-                "zgAjil",
-                "zgAjil1",
-                "zgAjil2",
-                "zgAjil3",
-                "zgAjil4",
-                "zgAjil5",
-                "zgAjil6"
-              ],
-            },,
-       
+            "zgAjil",
+            "zgAjil2",
+            "zgAjil3",
+            "zgAjil4",
+            "zgAjil5",
+            "zgAjil6",
+          ],
+        },
+
         {
           type: "category",
           label: "Зээлийн тайлан",
@@ -73,7 +70,7 @@ const sidebars = {
           label: "Харилцагч бүртгэх, данс нээх",
           items: ["burtgel", "hariltsagch", "dans"],
         },
-        ,
+
         "nTailan1",
 
         {
@@ -81,13 +78,13 @@ const sidebars = {
           label: "Гүйлгээ",
           items: ["nehemjlel", "guilgee", "guilgee2"],
         },
-        ,
+
         {
           type: "category",
           label: "Гүйлгээний төлөв",
           items: ["guilgTuluv4", "guilgTuluv3", "blansShalgah", "gulgTuluv5"],
         },
-        ,
+
         {
           type: "category",
           label: "Нябо тайлан",
@@ -102,6 +99,7 @@ const sidebars = {
         },
       ],
     },
+
     // nybo tohirgoo
     {
       type: "category",
