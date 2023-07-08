@@ -35,7 +35,17 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн хүсэлт",
-          items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
+          items: [
+            "zeeliinHuselt",
+            "zeelSudlah",
+            "shiidwer",
+            "zeelGeree",
+            {
+              type: "category",
+              label: "Зээлийн гэрээтэй ажиллах",
+              items: ["zeeliinHuselt"],
+            },
+          ],
         },
         ,
         {
