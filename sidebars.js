@@ -37,7 +37,6 @@ const sidebars = {
           label: "Зээлийн хүсэлт",
           items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
         },
-
         {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
@@ -45,12 +44,11 @@ const sidebars = {
             "zgAjil",
             "zgAjil2",
             "zgAjil3",
-            "zgAjil4",
+            "ZgAjil4",
             "zgAjil5",
             "zgAjil6",
           ],
         },
-
         {
           type: "category",
           label: "Зээлийн тайлан",
