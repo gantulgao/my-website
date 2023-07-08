@@ -43,7 +43,15 @@ const sidebars = {
             {
               type: "category",
               label: "Зээлийн гэрээтэй ажиллах",
-              items: ["zeeliinHuselt"],
+              items: [
+                "zgAjil",
+                "zgAjil1",
+                "zgAjil2",
+                "zgAjil3",
+                "zgAjil4",
+                "zgAjil5",
+                "zgAjil6",
+              ],
             },
           ],
         },
