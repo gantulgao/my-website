@@ -35,7 +35,7 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн хүсэлт",
-          items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
+          items: ["zeeliinHuselt", "zeelSudlah", "ZeelShiidwer", "zeelGeree"],
         },
         {
           type: "category",
