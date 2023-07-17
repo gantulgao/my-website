@@ -77,7 +77,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} EFinance Guide, iSolvers LLC`,
+        copyright: `Copyright © ${new Date().getFullYear()} EFine Guide, ECM Fintech LLC`,
       },
       prism: {
         theme: lightCodeTheme,
