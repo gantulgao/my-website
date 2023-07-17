@@ -41,7 +41,7 @@ const sidebars = {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
           items: [
-            "zgAjil",
+            "zgSungah",
             "zgAjil2",
             "zgAjil3",
             "ZgAjil4",
