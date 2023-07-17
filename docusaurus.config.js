@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "EFinance guide",
+  title: "EFINE санхүүгийн суурь систем",
   tagline: "",
   favicon: "img/favicon.ico",
 
@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "E-Finance", // Usually your GitHub org/user name.
+  organizationName: "EFine", // Usually your GitHub org/user name.
   projectName: "efine-guide", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -50,7 +50,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "EFinance Guide",
+        title: "efine",
         logo: {
           alt: "EFinance Logo",
           src: "img/logo.svg",
