@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "EFINE санхүүгийн суурь систем",
+  title: "EFINE суурь систем",
   tagline: "",
   favicon: "img/favicon.ico",
 
