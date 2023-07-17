@@ -62,7 +62,7 @@ const sidebars = {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
       items: [
-        "nTaniltsuulga",
+        "nyboModuli",
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
