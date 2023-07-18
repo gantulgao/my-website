@@ -41,6 +41,7 @@ const sidebars = {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
           items: [
+            "gNuhtsul",
             "zgSungah",
             "zeelAngilal",
             "zeelHaah",
