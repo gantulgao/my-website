@@ -46,8 +46,8 @@ const sidebars = {
             "zeelAngilal",
             "zeelHaah",
             "yavtsHynalt",
-            "zgAjil5",
-            "zgAjil6",
+            "zeelTuuh",
+            "zeelTuluh",
           ],
         },
         {
