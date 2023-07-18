@@ -42,7 +42,7 @@ const sidebars = {
           label: "Зээлийн гэрээтэй ажиллах",
           items: [
             "zgSungah",
-            "zgAjil2",
+            "zeelAngilal",
             "zgAjil3",
             "ZgAjil4",
             "zgAjil5",
