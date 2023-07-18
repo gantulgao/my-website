@@ -35,15 +35,15 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн хүсэлт",
-          items: ["zeeliinHuselt", "zeelSudlah", "shiidwer", "zeelGeree"],
+          items: ["zeeliinHuselt", "zeelSudlah", "ZeelShiidwer", "zeelGeree"],
         },
         {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
           items: [
-            "zgAjil",
-            "zgAjil2",
-            "zgAjil3",
+            "zgSungah",
+            "zeelAngilal",
+            "zeelHaah",
             "ZgAjil4",
             "zgAjil5",
             "zgAjil6",
@@ -62,7 +62,7 @@ const sidebars = {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
       items: [
-        "nTaniltsuulga",
+        "nyboModuli",
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
