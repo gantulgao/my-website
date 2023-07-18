@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/nevtreh"
           >
-            EFinance guide ⏱️
+            Гарын авлага ⏱️
           </Link>
         </div>
       </div>
