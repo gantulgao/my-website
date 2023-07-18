@@ -43,7 +43,7 @@ const sidebars = {
           items: [
             "zgSungah",
             "zeelAngilal",
-            "zgAjil3",
+            "zeelHaah",
             "ZgAjil4",
             "zgAjil5",
             "zgAjil6",
