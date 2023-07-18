@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "EFINE суурь систем",
   tagline: "",
-  favicon: "static/img/efine 1.png",
+  favicon: "static/img/efine1.png",
 
   // Set the production url of your site here
   url: "http://docs.efine.mn",
@@ -48,12 +48,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "static/img/efine 1.png",
+      image: "static/img/efine1.png",
       navbar: {
-        title: "efine",
+        title: "",
         logo: {
           alt: "EFinance Logo",
-          src: "img/logo.svg",
+          src: "img/efine1.png",
         },
         items: [
           {
