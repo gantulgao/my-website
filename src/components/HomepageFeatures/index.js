@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Клауд технологид суурилсан ",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/hh1.svg").default,
     description: (
       <>
         Клауд веб технологид суурилсан тул та интернет холбогдсон бүх төрлийн
