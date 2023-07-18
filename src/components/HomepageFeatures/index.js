@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Клауд технологид суурилсан ",
-    Svg: require("@site/static/img/hh1.svg").default,
+    Svg: require("@site/static/img/hh77.svg").default,
     description: (
       <>
         Клауд веб технологид суурилсан тул та интернет холбогдсон бүх төрлийн
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Зээлийн үйл ажиллагаа автомажсан",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/gg5.svg").default,
     description: (
       <>
         Зээлийн үйл ажиллагааг ажлын урсгалд суурилсан байдлаар автомажуулж гар
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Санхүүгийн найдвартай тооцоолол",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/gg2.svg").default,
     description: (
       <>
         Байгууллагын бүхий л санхүүгийн гүйлгээг хийснээр бүх тооцоолол, тайлан
