@@ -68,7 +68,7 @@ const sidebars = {
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
-          items: ["burtgel", "hariltsagch", "dans"],
+          items: ["hariltsagch", "dans"],
         },
 
         "nTailan1",
