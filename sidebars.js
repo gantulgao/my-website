@@ -76,7 +76,7 @@ const sidebars = {
         {
           type: "category",
           label: "Гүйлгээ",
-          items: ["nehemjlel", "guilgee", "guilgee2"],
+          items: ["nehemjlel", "Tguilgee", "guilgee2"],
         },
 
         {
