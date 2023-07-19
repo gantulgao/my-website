@@ -53,8 +53,9 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн тайлан",
-          items: ["zeeliinTailan", "Zotailan", "doTailan"],
+          items: ["zeeliinTailan", "Zotailan"],
         },
+        "doTailan",
       ],
     },
 
