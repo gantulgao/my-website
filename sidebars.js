@@ -104,7 +104,7 @@ const sidebars = {
     {
       type: "category",
       label: "НЯБО ТОХИРГОО",
-      items: ["nTohirgoo1"],
+      items: ["dansTuluvlu"],
     },
     "nemelt",
   ],
