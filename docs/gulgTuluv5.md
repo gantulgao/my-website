@@ -32,7 +32,7 @@ ___
 
 ![img alt](/img/aHansh.png)
 
-## Ханш тэгшитгэл хийх
+## Ханшийн тэгшитгэл хийх
 ___
 
 ![img alt](/img/hanshTegsh.png)
