@@ -72,6 +72,7 @@ const sidebars = {
         },
 
         "nTailan1",
+        "guilgeeJurnal",
 
         {
           type: "category",
