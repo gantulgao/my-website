@@ -108,6 +108,7 @@ const sidebars = {
       label: "НЯБО ТОХИРГОО",
       items: ["dansTuluvlu"],
     },
+    "reports",
     "nemelt",
   ],
 };
