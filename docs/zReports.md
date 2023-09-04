@@ -7,13 +7,14 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="ztailan" label="Зээлийн тайлан" default>
 
-   [Зээл болон хүү төлөлтийн тайлан](../docs/zeeliinTailan)
-
-   [Зохицуулагчийн тайлан](../docs/Zotailan)
-
-  [Олголтын тайлан](../docs/zeeliinTailan#олголтын-тайлан)
+hhhhhhh
   
   </TabItem>
+
+
+
+
+
 
   <TabItem value="dtailan" label="Дотоод тайлан">
 
