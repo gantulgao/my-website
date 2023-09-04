@@ -53,7 +53,7 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн тайлан",
-          items: ["zeeliinTailan", "Zotailan"],
+          items: ["zReports","zeeliinTailan", "Zotailan"],
         },
         "doTailan",
       ],
@@ -108,7 +108,7 @@ const sidebars = {
       label: "НЯБО ТОХИРГОО",
       items: ["dansTuluvlu"],
     },
-    "reports",
+   
     "nemelt",
   ],
 };
