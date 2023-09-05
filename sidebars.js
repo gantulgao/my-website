@@ -50,14 +50,19 @@ const sidebars = {
             "zeelTuluh",
           ],
         },
+       
         {
           type: "category",
           label: "Зээлийн тайлан",
-          items: ["zReports","zeeliinTailan", "Zotailan"],
+          items: ["loanReport/zotailan"],
         },
         "doTailan",
       ],
     },
+
+
+
+
 
     // ny bo burtgel
     {
@@ -112,5 +117,5 @@ const sidebars = {
     "nemelt",
   ],
 };
-
+/*
 module.exports = sidebars;
