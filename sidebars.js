@@ -18,7 +18,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  mySidebar: [
+  tutorialSidebar: [
     {
       type: "category",
       label: "АГУУЛГА",
@@ -50,11 +50,11 @@ const sidebars = {
             "zeelTuluh",
           ],
         },
-       
+
         {
           type: "category",
           label: "Зээлийн тайлан",
-          items: ["loanReport/zotailan"],
+          items: ["loanReport"],
         },
         "doTailan",
       ],
@@ -64,7 +64,7 @@ const sidebars = {
 
 
 
-    // ny bo burtgel
+
     {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
@@ -117,5 +117,5 @@ const sidebars = {
     "nemelt",
   ],
 };
-/*
+
 module.exports = sidebars;
