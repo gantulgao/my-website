@@ -34,7 +34,8 @@ const sidebars = {
             "zeelTuluh",
           ],
         },
-
+      ],
+    },
 
 
     {
