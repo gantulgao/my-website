@@ -2,11 +2,7 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-    {
-      type: "category",
-      label: "АГУУЛГА",
-      items: ["nevtreh"],
-    },
+  "nevtreh",
 
     {
       type: "category",
@@ -32,6 +28,29 @@ const sidebars = {
             "zeelTuluh"
           ],
         },
+        {
+          type: "category",
+          label: "Зээлийн тайлан",
+          link: {
+            type: 'generated-index',
+            title: 'Зээлийн тайлан',
+            description:
+              "Let's learn about the most important Docusaurus concepts!",
+            keywords: ['тайлан'],
+       
+          },
+          items: [
+            "gNuhtsul",
+            "zgSungah",
+            "zeelAngilal",
+            "zeelHaah",
+            "yavtsHynalt",
+            "zeelTuuh",
+            "zeelTuluh"
+          ],
+        },
+
+
       ],
     },
     {
