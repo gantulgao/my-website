@@ -39,15 +39,7 @@ const sidebars = {
             keywords: ['тайлан'],
        
           },
-          items: [
-            "gNuhtsul",
-            "zgSungah",
-            "zeelAngilal",
-            "zeelHaah",
-            "yavtsHynalt",
-            "zeelTuuh",
-            "zeelTuluh"
-          ],
+          items: ["loanRprt","zotailan"],
         },
 
 
