@@ -82,16 +82,13 @@ const sidebars = {
           items: [
           "huulga",
           "tbalance",
-          "nTailan7",
-          "nTailan2",
-          "nTailan4",
-          "blansShalgah",
-          "nTailan5",
+     
+      
           "nTailan6",
           
         ],
         },
-
+        "guilUndurluh",
 
         
       ],
