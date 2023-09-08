@@ -54,7 +54,7 @@ const sidebars = {
           label: "Харилцагч бүртгэх, данс нээх",
           items: ["hariltsagch", "dans"],
         },
-        "nTailan1",
+     
         "guilgeeJurnal",
         {
           type: "category",
@@ -70,17 +70,30 @@ const sidebars = {
 
         {
           type: "category",
-          label: "Нябо тайлан",
+          label: "Ня-бо тайлан",
+          link: {
+            type: 'generated-index',
+            title: 'Ня-бо тайлан',
+            description:
+              "Let's learn about the most important Docusaurus concepts!",
+            keywords: ['тайлан'],
+       
+          },
           items: [
-            "nTailan7",
-            "nTailan2",
-            "nTailan4",
-            "blansShalgah",
-            "nTailan5",
-            "nTailan6",
-            "nTailan8"
-          ],
+          "huulga",
+          "tbalance",
+          "nTailan7",
+          "nTailan2",
+          "nTailan4",
+          "blansShalgah",
+          "nTailan5",
+          "nTailan6",
+          
+        ],
         },
+
+
+        
       ],
     },
     // nybo tohirgoo
