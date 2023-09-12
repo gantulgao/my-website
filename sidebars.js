@@ -7,6 +7,13 @@ const sidebars = {
     {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
+       link: {
+            type: 'generated-index',
+            title: 'Зээлийн бүртгэл',
+            description:
+              "Зээлийн бүртгэл бла блах",
+            keywords: ['бүртгэл'],
+          },
       items: [
         "zeel_moduli",
         "burt_zeeldegch",
@@ -47,6 +54,13 @@ const sidebars = {
     {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
+      link: {
+        type: 'generated-index',
+        title: 'Ня-бо бүртгэл',
+        description:
+          "Ня-бо бүртгэл бла блах",
+        keywords: ['бүртгэл'],
+      },
       items: [
         "nyboModuli",
         {
