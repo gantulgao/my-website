@@ -66,6 +66,13 @@ const sidebars = {
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
+          link: {
+            type: 'generated-index',
+            title: 'Харилцагч бүртгэх, данс нээх',
+            description:
+              "Зээлийн бус харилцагч үүсгэх бол энэ модулийг ашиглана.",
+    
+          },
           items: ["hariltsagch", "dans"],
         },
      
