@@ -48,6 +48,7 @@ const sidebars = {
           },
           items: ["loanRprt","zotailan"],
         },
+
          "doTailan",
       ],
     },
