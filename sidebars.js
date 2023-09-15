@@ -7,32 +7,26 @@ const sidebars = {
     {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
-       link: {
-            type: 'generated-index',
-            title: 'Зээлийн бүртгэл',
-            description:
-              "Уг систем нь банк бус санхүүгийн байгууллага (ББСБ)-ын зээлийн бүртгэл, хүү тооцооллын бүртгэлийг автоматжуулах түүнтэй холбоотойгоор мэдээллийн нэгдсэн сан бүрдүүлэх, холбогдох тайлан мэдээг түргэн шуурхай гаргах боломжийг олгоно.",
-            keywords: ['бүртгэл'],
-          },
-      items: [
-        "zeel_moduli",
-        "burt_zeeldegch",
+       link: { type: 'doc', id:'loanM/zeel_moduli'},
+      items: [ 
+        "loanM/burt_zeeldegch",
         {
          type: "category",
           label: "Зээлийн хүсэлт",
-          items: ["zeeliinHuselt", "zeelSudlah", "ZeelShiidwer", "zeelGeree"],
+          items: ["loanM/zeeliinHuselt", "loanM/zeelSudlah",
+           "loanM/ZeelShiidwer", "loanM/zeelGeree"],
         },
         {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
           items: [
-            "gNuhtsul",
-            "zgSungah",
-            "zeelAngilal",
-            "zeelHaah",
-            "yavtsHynalt",
-            "zeelTuuh",
-            "zeelTuluh"
+            "loanM/gNuhtsul",
+            "loanM/zgSungah",
+            "loanM/zeelAngilal",
+            "loanM/zeelHaah",
+            "loanM/yavtsHynalt",
+            "loanM/zeelTuuh",
+            "loanM/zeelTuluh"
           ],
         },
         {
@@ -42,29 +36,23 @@ const sidebars = {
             type: 'generated-index',
             title: 'Зээлийн тайлан',
             description:
-              "Let's learn about the most important Docusaurus concepts!",
-            keywords: ['тайлан'],
+              "Let's learn about the most important Docusaurus concepts!"
        
           },
-          items: ["loanRprt","zotailan"],
+          items: ["loanM/loanRprt","loanM/zotailan"],
         },
 
-         "doTailan",
+         "loanM/doTailan",
       ],
     },
+
     {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
-      link: {
-        type: 'generated-index',
-        title: 'Ня-бо бүртгэл',
-        description:
-          "Ня-бо бүртгэл бла блах",
-        keywords: ['бүртгэл'],
-      },
-      items: [
-        "nyboModuli",
-        {
+      link: { type: 'doc', id: 'nyboM/nyboModuli'},
+      items:[
+        "nyboM/guilgeeJurnal",
+         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
           link: {
@@ -72,22 +60,20 @@ const sidebars = {
             title: 'Харилцагч бүртгэх, данс нээх',
             description:
               "Зээлийн бус харилцагч үүсгэх бол энэ модулийг ашиглана.",
-    
           },
-          items: ["hariltsagch", "dans"],
+          items: ["nyboM/hariltsagch", "nyboM/dans"],
         },
      
-        "guilgeeJurnal",
         {
           type: "category",
           label: "Гүйлгээ",
-          items: ["nehemjlel", "Tguilgee", "tBusGuilgee"],
+          items: ["nyboM/nehemjlel", "nyboM/Tguilgee", "nyboM/tBusGuilgee"],
         },
 
         {
           type: "category",
           label: "Гүйлгээний төлөв",
-          items: ["udurUndurluh", "zeelHuu", "eRate"],
+          items: ["nyboM/udurUndurluh", "nyboM/zeelHuu", "nyboM/eRate"],
         },
 
         {
@@ -98,30 +84,19 @@ const sidebars = {
             title: 'Ня-бо тайлан',
             description:
               "Let's learn about the most important Docusaurus concepts!",
-            keywords: ['тайлан'],
-       
           },
-          items: [
-          "huulga",
-          "tbalance",
-     
-      
-          "nTailan6",
-          
-        ],
+          items: ["nyboM/huulga", "nyboM/tbalance", "nyboM/nTailan6"],
         },
-        "guilUndurluh",
-
-        
+        "nyboM/guilUndurluh"
       ],
     },
     // nybo tohirgoo
     {
       type: "category",
       label: "НЯБО ТОХИРГОО",
-      items: ["dansTuluvlu"],
+      items: ["nyboM/dansTuluvlu"],
     },
-    "nemelt",
+    "nyboM/nemelt",
   ],
 };
 
