@@ -6,12 +6,8 @@ const sidebars = {
     {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
-       link: { 
-        type:'generated-index',
-        title:'Зээлийн бүртгэл',
-      },
+       link: { type:'doc', id:'zeel_moduli',},
       items: [
-        "zeel_moduli",
         "burt_zeeldegch",
         {
          type: "category",
@@ -50,12 +46,8 @@ const sidebars = {
     {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
-      link: { 
-        type: 'generated-index', 
-        title: 'Ня-бо бүртгэл',
-      },
+      link: { type:'doc', id:'nyboModuli',},
       items: [
-      "nyboModuli",
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
