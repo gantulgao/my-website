@@ -71,7 +71,7 @@ const sidebars = {
         {
           type: "category",
           label: "Гүйлгээний төлөв",
-          items: ["udurUndurluh", "zeelHuu", "eRate"],
+          items: [ "guilUndurluh", "udurUndurluh", "zeelHuu", "eRate"],
         },
 
         {
@@ -87,7 +87,7 @@ const sidebars = {
           },
           items: ["huulga", "tbalance", "nTailan6"],
         },
-        "guilUndurluh",
+       
       ],
     },
     // nybo tohirgoo
