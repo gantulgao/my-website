@@ -6,6 +6,11 @@ title: Нябо модулийн тухай
 Ня-бо бүртгэл модуль нь **efine ББСБ** санхүүгийн суурь системийн бүрэлдэхүүн хэсэг юм.
 :::
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+
+
 ## Цэсийн талаар товчхон
 ---
 ![img alt](/img/image-6.png)
