@@ -71,7 +71,7 @@ const sidebars = {
         {
           type: "category",
           label: "Гүйлгээний төлөв",
-          items: [ "guilUndurluh", "udurUndurluh", "zeelHuu", "eRate"],
+          items: [ "guilUndurluh", "udurUndurluh", "zeelHuu", "eRate", "guilHuraangui"],
         },
 
         {
