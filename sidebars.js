@@ -12,7 +12,8 @@ const sidebars = {
         {
          type: "category",
           label: "Зээлийн хүсэлт",
-          items: ["zeeliinHuselt", "zeelSudlah", "ZeelShiidwer", "zeelGeree"],
+           link: { type:'doc', id:'zeeliinHuselt',},
+          items: ["zeelSudlah", "ZeelShiidwer", "zeelGeree"],
         },
         {
           type: "category",
