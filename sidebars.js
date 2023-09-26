@@ -2,22 +2,29 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-  "nevtreh",
+    "nevtreh",
     {
       type: "category",
       label: "ЗЭЭЛИЙН БҮРТГЭЛ",
-       link: { type:'doc', id:'zeel_moduli',},
+      link: { type: "doc", id: "zeel_moduli" },
       items: [
         "burt_zeeldegch",
         {
-         type: "category",
+          type: "category",
           label: "Зээлийн хүсэлт",
-           link: { type:'doc', id:'zeeliinHuselt',},
+          link: { type: "doc", id: "zeeliinHuselt" },
           items: ["zeelSudlah", "ZeelShiidwer", "zeelGeree"],
         },
         {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
+          link: {
+            type: "generated-index",
+            title: "Зээлийн гэрээтэй ажиллах",
+            description:
+              "Let's learn about the most important Docusaurus concepts!",
+          },
+
           items: [
             "gNuhtsul",
             "zgSungah",
@@ -25,43 +32,41 @@ const sidebars = {
             "zeelHaah",
             "yavtsHynalt",
             "zeelTuuh",
-            "zeelTuluh"
+            "zeelTuluh",
           ],
         },
         {
           type: "category",
           label: "Зээлийн тайлан",
           link: {
-            type: 'generated-index',
-            title: 'Зээлийн тайлан',
+            type: "generated-index",
+            title: "Зээлийн тайлан",
             description:
-              "Let's learn about the most important Docusaurus concepts!"
-       
+              "Let's learn about the most important Docusaurus concepts!",
           },
-          items: ["loanRprt","zotailan"],
+          items: ["loanRprt", "zotailan"],
         },
 
-         "doTailan",
+        "doTailan",
       ],
     },
     {
       type: "category",
       label: "НЯБО БҮРТГЭЛ",
-      link: { type:'doc', id:'nyboModuli',},
+      link: { type: "doc", id: "nyboModuli" },
       items: [
         {
           type: "category",
           label: "Харилцагч бүртгэх, данс нээх",
           link: {
-            type: 'generated-index',
-            title: 'Харилцагч бүртгэх, данс нээх',
+            type: "generated-index",
+            title: "Харилцагч бүртгэх, данс нээх",
             description:
               "Зээлийн бус харилцагч үүсгэх бол энэ модулийг ашиглана.",
-    
           },
           items: ["hariltsagch", "dans"],
         },
-     
+
         "guilgeeJurnal",
         {
           type: "category",
@@ -72,23 +77,27 @@ const sidebars = {
         {
           type: "category",
           label: "Гүйлгээний төлөв",
-          items: [ "guilUndurluh", "udurUndurluh", "zeelHuu", "eRate", "guilHuraangui"],
+          items: [
+            "guilUndurluh",
+            "udurUndurluh",
+            "zeelHuu",
+            "eRate",
+            "guilHuraangui",
+          ],
         },
 
         {
           type: "category",
           label: "Ня-бо тайлан",
           link: {
-            type: 'generated-index',
-            title: 'Ня-бо тайлан',
+            type: "generated-index",
+            title: "Ня-бо тайлан",
             description:
               "Let's learn about the most important Docusaurus concepts!",
-            keywords: ['тайлан'],
-       
+            keywords: ["тайлан"],
           },
           items: ["huulga", "tbalance", "nTailan6"],
         },
-       
       ],
     },
     // nybo tohirgoo
