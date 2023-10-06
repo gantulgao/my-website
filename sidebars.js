@@ -13,8 +13,10 @@ const sidebars = {
           type: "category",
           label: "Зээлийн хүсэлт",
           link: { type: "doc", id: "zeeliinHuselt" },
-          items: ["zeelSudlah", "ZeelShiidwer", "zeelGeree"],
+          items: ["zeelSudlah", "ZeelShiidwer"],
         },
+        "zeelGeree",
+
         {
           type: "category",
           label: "Зээлийн гэрээтэй ажиллах",
