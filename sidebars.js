@@ -43,8 +43,6 @@ const sidebars = {
           link: {
             type: "generated-index",
             title: "Зээлийн тайлан",
-            description:
-              "Let's learn about the most important Docusaurus concepts!",
           },
           items: ["loanRprt", "zotailan"],
         },
