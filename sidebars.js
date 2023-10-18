@@ -24,7 +24,7 @@ const sidebars = {
             type: "generated-index",
             title: "Зээлийн гэрээтэй ажиллах",
             description:
-              "Let's learn about the most important Docusaurus concepts!",
+              "Зээлийн гэрээ хийгдсэний дараа хэрэглэгчийн эрхийн хязгаартайгаар хийх боломжтой ба холбогдох бүх гүйлгээ, данс, ханш г.м мэдээллийг автоматаар онлайн нэгдсэн сүлжээнээс татаж авдаг",
           },
 
           items: [
