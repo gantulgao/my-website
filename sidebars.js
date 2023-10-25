@@ -92,8 +92,7 @@ const sidebars = {
           link: {
             type: "generated-index",
             title: "Ня-бо тайлан",
-            description:
-              "Let's learn about the most important Docusaurus concepts!",
+            description: " ",
             keywords: ["тайлан"],
           },
           items: ["huulga", "tbalance", "nTailan6"],
