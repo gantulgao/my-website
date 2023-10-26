@@ -95,7 +95,18 @@ const sidebars = {
             description: " ",
             keywords: ["тайлан"],
           },
-          items: ["huulga", "tbalance", "nTailan6"],
+          items: [
+            "huulga",
+
+            {
+              type: "category",
+              label: "Тайлан баланс",
+              link: { type: "doc", id: "tbalance" },
+              items: ["GuilBalance", "edayTailan", "sarTailan"],
+            },
+
+            "nTailan6",
+          ],
         },
       ],
     },
