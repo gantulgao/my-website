@@ -89,12 +89,7 @@ const sidebars = {
         {
           type: "category",
           label: "Ня-бо тайлан",
-          link: {
-            type: "generated-index",
-            title: "Ня-бо тайлан",
-            description: " ",
-            keywords: ["тайлан"],
-          },
+          link: { type: "doc", id: "nyboTailan" },
           items: [
             "huulga",
 
@@ -104,8 +99,6 @@ const sidebars = {
               link: { type: "doc", id: "tbalance" },
               items: ["GuilBalance", "edayTailan", "sarTailan"],
             },
-
-            "nTailan6",
           ],
         },
       ],
