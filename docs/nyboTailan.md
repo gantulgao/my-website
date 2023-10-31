@@ -2,6 +2,11 @@
 title: Ня-бо тайлан
 ---
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+
+
 - ## [Хуулга](/docs/huulga)
 >
 > - [Нэрийн дансны хуулга](/docs/huulga#нэрийн-дансны-хуулга)
@@ -62,6 +67,3 @@ title: Ня-бо тайлан
         - Өмчийн өөрчлөлтийн тайлан
 
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
