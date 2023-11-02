@@ -40,10 +40,7 @@ const sidebars = {
         {
           type: "category",
           label: "Зээлийн тайлан",
-          link: {
-            type: "generated-index",
-            title: "Зээлийн тайлан",
-          },
+          link: { type: "doc", id: "zeeliinTailan" },
           items: ["loanRprt", "zotailan"],
         },
 
