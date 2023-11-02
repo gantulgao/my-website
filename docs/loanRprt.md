@@ -49,9 +49,5 @@ _Төлөлт ойртсон/хэтэрсэн_ сонголтын үед хон�
 ![img alt](/img/jgsaalt.png)
 
 
-### My Doc Section
 
-Hello world message with some **bold** text, some _italic_ text, and a [link](/)
-
-![img alt](/img/jgsaalt.png)
 
