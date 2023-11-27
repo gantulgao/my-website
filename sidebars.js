@@ -106,6 +106,10 @@ const sidebars = {
       label: "НЯБО ТОХИРГОО",
       items: ["dansTuluvlu"],
     },
+    "mobile",
+    "zms",
+    "hur",
+    "admin",
     "nemelt",
   ],
 };
