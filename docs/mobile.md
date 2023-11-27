@@ -2,4 +2,4 @@
 title: Mobile харилцагч
 ---
 
-![img alt](/img/mobile.png)
+![img alt](/img/amobile.png)
