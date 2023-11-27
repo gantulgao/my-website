@@ -109,7 +109,14 @@ const sidebars = {
     "mobile",
     "zms",
     "hur",
-    "admin",
+
+  {
+      type: "category",
+      label: "Administration",
+      link: { type: "doc", id: "admin" },
+      items: ["UserM", "ViewM", "jobM", "modelM", "helpM", "moduleM"],
+    },
+
     "nemelt",
   ],
 };
