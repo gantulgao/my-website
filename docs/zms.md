@@ -11,4 +11,4 @@ title: Зээлийн мэдээллийн сан
 ## ЗМС тохиргоо 
 
 ## ЗМС-д нийлүүлсэн
-![img alt](/img/zmsZeel.jpg)
+![img alt](/img/zmsZeel.png)
