@@ -9,6 +9,7 @@ title: Зээлийн мэдээллийн сан
 ## ЗМС биллинг
 
 ## ЗМС тохиргоо 
-
+![img alt](/img/zmsTohirgoo.png)
+![img alt](/img/zmsTohirgooNew.png)
 ## ЗМС-д нийлүүлсэн
 ![img alt](/img/zmsZeel.png)
