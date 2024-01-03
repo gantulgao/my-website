@@ -1,0 +1,32 @@
+name: Draft branch CI/CD
+
+on:
+  push:
+    branches: [ draft ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: ssh script
+        uses: appleboy/ssh-action@master
+        env:
+          SSH_ROOT: ${{secrets.SSH_ROOT}}
+        with:
+          host: ${{ secrets.MASTER_BRANCH_HOST }}
+          username: ${{secrets.SSH_USER}}
+          key: ${{secrets.SSH_PRIVATE_KEY}}
+          envs: SSH_ROOT
+          script: |
+            cd ~/efine/efine_source/my-website
+            git pull origin draft
+            git checkout draft
+            chmod +x ./post_commit.sh
+            ./post_commit.sh
+            chmod -x ./post_commit.sh
+

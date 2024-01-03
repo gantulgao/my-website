@@ -12,9 +12,4 @@ cd build
 
 docker cp ./ efine:/tomcat/webapps/ROOT/ || exit 1
 
-
-
-
-
-
-
+echo "Done"
