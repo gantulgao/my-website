@@ -37,13 +37,14 @@ const sidebars = {
             "zeelTuluh",
           ],
         },
+        "offer",
         {
           type: "category",
           label: "Зээлийн тайлан",
           link: { type: "doc", id: "zeeliinTailan" },
           items: ["loanRprt", "zotailan"],
         },
-
+        "automat",
         "doTailan",
       ],
     },
