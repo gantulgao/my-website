@@ -1,5 +1,5 @@
 ---
-title: Ня-бо тайлан
+title: Ня-бо тайлан 
 ---
 
 import DocCardList from '@theme/DocCardList';
@@ -64,6 +64,6 @@ import DocCardList from '@theme/DocCardList';
         - Нэгдсэн баланс
         - Орлого үр дүнгийн тайлан
         - Мөнгөн гүйлгээний тайлан
-        - Өмчийн өөрчлөлтийн тайлан
+        - Өмчийн өөрчлөлтийн тайлан болно
 
 
