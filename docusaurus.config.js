@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "FINCORE суурь систем",
   tagline: "",
-  favicon: "static/img/efine1.png",
+  favicon: "static/img/fincore.png",
 
   // Set the production url of your site here
   url: "http://docs.fincore.mn",
