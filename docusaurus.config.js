@@ -6,20 +6,20 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "EFINE суурь систем",
+  title: "FINCORE суурь систем",
   tagline: "",
   favicon: "static/img/efine1.png",
 
   // Set the production url of your site here
-  url: "http://docs.efine.mn",
+  url: "http://docs.fincore.mn",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "EFine", // Usually your GitHub org/user name.
-  projectName: "efine-guide", // Usually your repo name.
+  organizationName: "Fincore", // Usually your GitHub org/user name.
+  projectName: "Fincore-guide", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -77,7 +77,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} EFine Guide, ECM Fintech LLC`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fincore Guide, ECM Fintech LLC`,
       },
       prism: {
         theme: lightCodeTheme,
