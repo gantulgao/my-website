@@ -48,12 +48,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "static/img/efine1.png",
+      image: "static/img/fincore.png",
       navbar: {
         title: "",
         logo: {
-          alt: "EFinance Logo",
-          src: "img/efine1.png",
+          alt: "fincore Logo",
+          src: "img/fincore.png",
         },
         items: [
           {
