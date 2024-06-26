@@ -50,6 +50,12 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "ДИЖИТАЛ ЗЭЭЛ",
+      items: ["mobile"],
+    },
+
+    {
+      type: "category",
       label: "НЯБО БҮРТГЭЛ",
       link: { type: "doc", id: "nyboModuli" },
       items: [
