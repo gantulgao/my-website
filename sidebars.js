@@ -37,7 +37,7 @@ const sidebars = {
             "zeelTuluh",
           ],
         },
-        "offer",
+
         {
           type: "category",
           label: "Зээлийн тайлан",
