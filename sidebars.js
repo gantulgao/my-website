@@ -44,14 +44,14 @@ const sidebars = {
           link: { type: "doc", id: "zeeliinTailan" },
           items: ["loanRprt", "zotailan"],
         },
-        "automat",
+        //  "automat",
         "doTailan",
       ],
     },
     {
       type: "category",
       label: "ДИЖИТАЛ ЗЭЭЛ",
-      items: ["mobile"],
+      items: ["mobile", "offerH", "BankTrans", "autoOlgolt", "zeel_Digi"],
     },
 
     {
@@ -113,7 +113,6 @@ const sidebars = {
       label: "НЯБО ТОХИРГОО",
       items: ["dansTuluvlu"],
     },
-    "mobile",
     "zms",
     "hur",
     "nemelt",
