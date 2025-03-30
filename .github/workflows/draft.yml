@@ -18,6 +18,7 @@ jobs:
         env:
           SSH_ROOT: ${{secrets.SSH_ROOT}}
           GIT_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GIT_BRANCH: draft
         with:
           host: ${{ secrets.MASTER_BRANCH_HOST }}
           username: ${{secrets.SSH_USER}}
