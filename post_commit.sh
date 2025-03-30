@@ -6,5 +6,5 @@ pwd
 npm -version
 npm run build || exit 1
 cd build 
-docker cp ./ efine1:/tomcat/webapps/ROOT/docs/ || exit 1
+docker cp ./ efine1:/tomcat/webapps/docs/ || exit 1
 echo "Deployed!"
