@@ -2,7 +2,7 @@ name: Draft branch CI/CD
 
 on:
   push:
-    branches: [ draft ]
+    branches: [draft]
 
 jobs:
   deploy:
@@ -17,16 +17,17 @@ jobs:
         uses: appleboy/ssh-action@master
         env:
           SSH_ROOT: ${{secrets.SSH_ROOT}}
+          GIT_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           host: ${{ secrets.MASTER_BRANCH_HOST }}
           username: ${{secrets.SSH_USER}}
           key: ${{secrets.SSH_PRIVATE_KEY}}
-          envs: SSH_ROOT
+          envs: SSH_ROOT,GIT_TOKEN,GIT_BRANCH
           script: |
-            cd ~/efine/efine_source/my-website
-            git pull origin draft
-            git checkout draft
+            cd ~/efine/efine_source
+            rm -rf my-website
+            git clone --branch $GIT_BRANCH https://gantulgao:$GIT_TOKEN@github.com/gantulgao/my-website.git
+            cd my-website
             chmod +x ./post_commit.sh
             ./post_commit.sh
             chmod -x ./post_commit.sh
-
