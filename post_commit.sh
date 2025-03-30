@@ -7,5 +7,5 @@ npm -version
 npm install
 npm run build || exit 1
 cd build 
-docker cp ./ efine1:/tomcat/webapps/doc/ || exit 1
+cp -r ./ /var/www/html/doc.fincore.mn/ || exit 1
 echo "Deployed!"
